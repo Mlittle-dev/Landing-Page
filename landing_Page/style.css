@@ -1,0 +1,64 @@
+/* Stylesheet for landing page project for 5/5/2021 */
+
+/* Google Font name:
+   font-family: 'Arvo', serif;
+   font-family: 'oswald';
+*/
+
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+section.intro{
+	height: 500px;
+	background-image: url("background.jpg");
+	background-size: cover;
+	margin: auto;
+}
+
+div.content {
+	vertical-align: center;
+	text-align: center;
+}
+
+div.content h1 {
+	font-family: 'Arvo', serif;
+	color: white;
+	text-shadow: 1px 1px 10px black;
+	font-size: 300%;
+	padding-top: 50px;
+}
+
+div.content a.btn {
+	text-decoration: none;
+	font-family: "oswald", sans-serif;
+	font-size: 250%;
+	background-color: lightyellow;
+	padding: 10px 20px;
+	border-radius: 15px;
+	border-color: black;
+	border-width: 3px;
+	border-style: solid;
+	transition: all 1s;
+}
+
+div.content a.btn:hover {
+	color: red;
+	background-color: white;
+}
+
+p {
+	font-family: oswald, sans-serif;
+	margin: 0px 10px;
+}
+
+@media screen and (max-width: 768px) {
+	div.content h1 {
+		font-size: 250%;
+
+	}
+
+}
